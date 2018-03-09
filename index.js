@@ -86,9 +86,7 @@ client.on("message", async message => {
   }
     
     if(command === "game") {
-          console.log('coucouuuuu');
-          
-        //message.channel.send('wesh'+message.author.username+':'+message.author.presence.game.name);
+          console.log('coucouuuuu'); //message.channel.send('wesh'+message.author.username+':'+message.author.presence.game.name);
         message.guild.fetchMember(message.author)
   .then(member => {
             updateGameRoleNumber(member);
