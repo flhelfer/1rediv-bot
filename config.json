@@ -1,0 +1,15 @@
+{
+    "name": "Assigning-bot",
+  "version": "1.0.0",
+  "description": "My own Discord bot",
+  "main": "app.js",
+  "author": "Pedo",
+    "scripts": { 
+        "start": "node app.js"
+    },
+    "token"  : "NDIwNjcwOTM3MjUyMjMzMjM3.DYCElA.QxrLtuZbVTpDpxblzuewQMIdXVQ",
+    "prefix" : "+",
+    "dependencies": {
+        "discord.js": "11.3.2"
+    }
+}
