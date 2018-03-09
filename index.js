@@ -19,44 +19,36 @@ client.on("ready", () => {
   client.user.setActivity(`on ${client.guilds.size} servers`);
 });
 
-
-client.on("presence", (userold, usernew) => {
-    console.log("Presence Changed!");
-});
-
-
-client.on('presence', (user, status, gameId) => {
-  console.log('presence', user, status, gameId);
-});
-
 client.on('presenceUpdate', (oldMember, newMember) => {
     
     
     if(newMember.user.presence.game != null){
-        
-        
         console.log(`${newMember.user.username} commence ${newMember.user.presence.game.name}`);
         if(newMember.user.presence.game.name.indexOf('Total War: Arena') > -1 ){
             var roleTotal = newMember.guild.roles.find('name', 'Joueur Total')
             newMember.addRole(roleTotal);
            console.log('Add role');
+            updateGameRoleNumber(newMember);
            }
         
         if(newMember.user.presence.game.name ==='Foxhole'){
             var roleTotal = newMember.guild.roles.find('name', 'Joueur Foxhole')
             newMember.addRole(roleTotal);
            console.log('Add role');
+            updateGameRoleNumber(newMember);
            }
         if(newMember.user.presence.game.name.indexOf('Spotify') > -1){
             console.log('wouaaai');
                var roleFoxhole = newMember.guild.roles.find('name', 'Musicien')
             newMember.addRole(roleFoxhole);
+            updateGameRoleNumber(newMember);
                     console.log('wessssh');
            }
         if(newMember.user.presence.game.name.indexOf('War Thunder') > -1){
             console.log('wouaaai');
                var roleFoxhole = newMember.guild.roles.find('name', 'Joueur War Thunder')
             newMember.addRole(roleFoxhole);
+            updateGameRoleNumber(newMember);
                     console.log('wessssh');
            }
        }else{

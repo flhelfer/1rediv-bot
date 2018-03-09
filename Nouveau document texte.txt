@@ -1,0 +1,10 @@
+const Discord = requier("discord.js");
+
+var bot = new Discord.Client();
+
+bot.on("read", function({
+    bot.user.setGame("testBot, +help");
+    console.log("Bot OK");
+}));
+       
+bot.login
