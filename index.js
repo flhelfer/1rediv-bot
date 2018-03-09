@@ -127,4 +127,4 @@ function updateGameRoleNumber(member){
 
 
 
-client.login(process.env.config.token);
+client.login(config.token);
