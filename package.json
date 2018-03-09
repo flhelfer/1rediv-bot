@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Pedo",
     "scripts": { 
-		"test":"echo \"Error: no test specified\" && exit 1";
+		"test":"echo \"Error: no test specified\" && exit 1",
         "start": "node index.js"
     },
     "token"  : "NDIwNjcwOTM3MjUyMjMzMjM3.DYCElA.QxrLtuZbVTpDpxblzuewQMIdXVQ",
