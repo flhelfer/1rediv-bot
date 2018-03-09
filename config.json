@@ -1,8 +1,8 @@
 {
-    "name": "Assigning-bot",
+  "name": "1rediv-bot",
   "version": "1.0.0",
   "description": "My own Discord bot",
-  "main": "app.js",
+  "main": "index.js",
   "author": "Pedo",
     "scripts": { 
         "start": "node app.js"
