@@ -21,7 +21,7 @@ client.on("ready", () => {
 
 client.on('presenceUpdate', (oldMember, newMember) => {
     
-    
+    console.log(oldMember.nickname);
     if(newMember.user.presence.game != null){
         console.log(`${newMember.user.username} commence ${newMember.user.presence.game.name}`);
         if(newMember.user.presence.game.name.indexOf('Total War: Arena') > -1 ){
@@ -39,8 +39,8 @@ client.on('presenceUpdate', (oldMember, newMember) => {
            }
         if(newMember.user.presence.game.name.indexOf('Spotify') > -1){
             console.log('wouaaai');
-               var roleFoxhole = newMember.guild.roles.find('name', 'Musicien')
-            newMember.addRole(roleFoxhole);
+               var roleMusicien = newMember.guild.roles.find('name', 'Musicien')
+            newMember.addRole(roleMusicien);
             updateGameRoleNumber(newMember);
                     console.log('wessssh');
            }
@@ -90,13 +90,25 @@ client.on("message", async message => {
         message.guild.fetchMember(message.author)
   .then(member => {
             updateGameRoleNumber(member);
-    
-            
   });
         
         console.log('coucouuuuu');
     
   }
+  
+  if(command === "test") {
+          console.log('coucouuuuu'); //message.channel.send('wesh'+message.author.username+':'+message.author.presence.game.name);
+         message.guild.fetchMember(message.author)
+  .then(member => { 
+  console.log('cest'+member.user.username);
+  var roleMusicien = member.guild.roles.find('name', 'Musicien');
+  console.log(roleMusicien);
+		member.addRole(roleMusicien);
+  });
+    
+  }
+  
+  
    
 });
 

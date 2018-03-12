@@ -5,10 +5,10 @@
   "main": "index.js",
   "author": "Pedo",
     "scripts": { 
-        "start": "node app.js",
+        "start": "node index.js",
 		"test":"echo \"Error: no test specified\" && exit 1"
     },
-    "token"  : "NDIwNjcwOTM3MjUyMjMzMjM3.DYCElA.QxrLtuZbVTpDpxblzuewQMIdXVQ",
+    "token"  : "NDIyNzU5NTgxOTYyMzM4MzEz.DYgdDg.-POOZYMX4V5UFVT41qJPD_uemkA",
 	"license": "ISC",
     "prefix" : "+",
     "dependencies": {
