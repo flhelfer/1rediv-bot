@@ -8,7 +8,7 @@
         "start": "node index.js",
 		"test":"echo \"Error: no test specified\" && exit 1"
     },
-    "token"  : "NDIzMDM1ODIxMDcxOTI1MjUw.DYkeVw.z_nijofFGpJfsAlPP6xe6wZvJ-c",
+    "token"  : "NDIyNzU5NTgxOTYyMzM4MzEz.DYgdDg.-POOZYMX4V5UFVT41qJPD_uemkA",
 	"license": "ISC",
     "prefix" : "+",
     "dependencies": {
