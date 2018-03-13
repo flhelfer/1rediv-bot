@@ -63,7 +63,7 @@ client.on("message", async message => {
 
   var semper = message.guild.members.get("137167492404477962");
 
-  updateName(semper);
+  //updateName(semper);
 
     const m = await message.channel.send("Ping?");
     m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
