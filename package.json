@@ -1,5 +1,5 @@
 {
-  "name": "1rediv-bot-test",
+  "name": "1rediv-bot",
   "version": "1.0.0",
   "description": "My own Discord bot",
   "main": "index.js",
