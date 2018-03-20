@@ -1,5 +1,5 @@
 {
-  "name": "1rediv-bot",
+  "name": "1rediv-bot-test",
   "version": "1.0.0",
   "description": "My own Discord bot",
   "main": "index.js",
@@ -9,10 +9,11 @@
 		"test":"echo \"Error: no test specified\" && exit 1"
     },
     "token"  : "NDIyNzU5NTgxOTYyMzM4MzEz.DYgdDg.-POOZYMX4V5UFVT41qJPD_uemkA",
-	"license": "ISC",
+	  "license": "ISC",
     "prefix" : "+",
     "dependencies": {
         "discord.js": "11.3.2"
     },
-    "gamelist":[["Foxhole", "🛠"], ["Total War: Arena", "🗺"], ["War Thunder", ""], ["Company Of Heroes 2", ""], ["Spotify", "🎵"]]
+    "staffroles":[["Jeux officiels", "🏆", "240159143134", 1], ["Officier de Commandement", "🥇","240159165135", 0], ["unité", "🥈","240159165136", 0], ["Chef adjoint", "🥉", "240159165137", 0]],
+    "gamelist":[["Foxhole", "🛠", "240159155160", 1], ["Total War: Arena", "⚔️", "226154148", 1], ["War Thunder", "⚙", "226154153", 0], ["Company Of Heroes 2", "🛡", "240159155161", 0], ["Blackwake", "⛴", "226155180", 1], ["Civilization VI", "🗺", "240159151186", 0], ["StarCitizen", "🛰", "240159155176", 0], ["Of Guards and Thieves", "🗡", "240159151161", 0], ["Spotify", "🎵", "240159142181", 0]]
 }
