@@ -1,2 +1,4 @@
 # 1rediv-bot
 Bot du discord de la 1re div
+
+ATTENTION: SETNICKNAME NE FONCTIONNE PAS POUR LE PROPRIÉTAIRE DU SERVEUR
